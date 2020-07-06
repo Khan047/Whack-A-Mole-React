@@ -1,5 +1,5 @@
 
-  
+	
 
 	 .game-status {
 		color: white;
@@ -64,8 +64,7 @@
 
 		}
 		.mole:active {
-			cursor: url('./hammer2.png'),auto;
+			cursor: url('./Group.png'),auto;
 			
 		}
        
-        

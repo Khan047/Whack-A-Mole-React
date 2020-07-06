@@ -163,10 +163,35 @@ const StyledDialogComponent = styled(DialogComponent)`
     margin: 4em 0 0;
 	}
   
-  & .dialog-button {
-    font-size: .6em;
-    margin:2em 0 0;
-  }
+//   & .dialog-button {
+//     font-size: .6em;
+// 	margin:2em 0 0;
+	
+//   }
+  .dialog-button {
+	margin:2em 0 0;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background-color:#77d42a;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+}
+.dialog-button:hover {
+	background-color:#5cb811;
+}
+.dialog-button:active {
+	position:relative;
+	top:1px;
+}
+
 
 	
 `
